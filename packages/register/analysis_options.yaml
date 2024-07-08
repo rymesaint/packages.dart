@@ -1,11 +1,10 @@
-include: package:pedantic/analysis_options.yaml
+# include: package:pedantic/analysis_options.yaml
 
 linter:
   rules:
   - always_declare_return_types
   - always_put_control_body_on_new_line
   - always_put_required_named_parameters_first
-  - always_require_non_null_named_parameters
   - avoid_annotating_with_dynamic
   - avoid_returning_this
   - avoid_classes_with_only_static_members
@@ -31,11 +30,8 @@ linter:
   - empty_statements
   - hash_and_equals
   - implementation_imports
-  - invariant_booleans
-  - iterable_contains_unrelated_type
   - join_return_with_assignment
   - library_names
-  - list_remove_unrelated_type
   - literal_only_boolean_expressions
   - no_adjacent_strings_in_list
   - no_duplicate_case_values
